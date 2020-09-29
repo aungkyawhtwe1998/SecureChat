@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.UserFragment">
+    <com.google.android.material.textview.MaterialTextView
+        android:visibility="gone"
+        android:id="@+id/user_tt"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/space_mono_bold"
+        android:paddingLeft="20dp"
+        android:text="Find Friends"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_toLeftOf="@+id/riple"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            android:background="@color/colorPrimaryDark"
+            app:cardElevation="1dp"
+            android:id="@+id/search_card">
+            <EditText
+                android:padding="5dp"
+                android:fontFamily="@font/space_mono_bold"
+                android:hint="Enter Email ID"
+                android:id="@+id/edt_search"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bgcorner"/>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_alignParentRight="true"
+            app:cardCornerRadius="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/riple">
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/RippleStyleGrey">
+                <Button
+                    android:fontFamily="@font/space_mono_bold"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:id="@+id/btn_findfriend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bgcorner"
+                    android:text="Search"
+                    android:hapticFeedbackEnabled="true"
+                    android:textAllCaps="false"/>
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyler_view"
+        android:layout_below="@+id/search_card"/>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ActivityUi.HomeActivity"
+    android:background="@color/colorPrimaryDark"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/home_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:elevation="0dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:hapticFeedbackEnabled="true"
+                android:defaultFocusHighlightEnabled="true"
+                android:id="@+id/profile_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_user_profile"
+                app:civ_border_color="#FFFF"
+                app:civ_border_width="3dp" />
+
+            <TextView
+                android:textSize="20sp"
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="@font/space_mono_bold"
+                android:text="username"
+                android:textColor="#FFFF"
+                android:textStyle="bold" />
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_marginTop="10dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:elevation="5dp"
+        android:background="#F1F1F1"
+        android:layout_below="@id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_pager">
+
+    </androidx.viewpager.widget.ViewPager>
+    <com.google.android.material.tabs.TabLayout
+        android:elevation="3dp"
+        app:tabGravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/tab_layout_background"
+        app:tabMode="scrollable"
+        app:tabBackground="@drawable/tab_layout_selector"
+        app:tabSelectedTextColor="@color/colorPrimaryDark"
+        app:tabPaddingStart="16dp"
+        app:tabPaddingEnd="16dp"
+        app:tabIndicatorHeight="0dp"
+        app:tabRippleColor="@null"
+        app:tabTextAppearance="@style/TabTextAppearance"
+        android:layout_below="@id/home_bar"
+        android:textAlignment="center"
+        android:id="@+id/tab_layout">
+    </com.google.android.material.tabs.TabLayout>
+
+
+</RelativeLayout>

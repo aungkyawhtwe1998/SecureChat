@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/chat_profileImg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_user_profile"
+                app:civ_border_color="@color/colorPrimaryDark"
+                app:civ_border_width="3dp" />
+
+            <TextView
+                android:id="@+id/chat_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_toEndOf="@+id/chat_profileImg"
+                android:fontFamily="@font/space_mono_bold"
+                android:text="username"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_on"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_below="@id/chat_user"
+                android:layout_marginLeft="-15dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/chat_profileImg"
+                android:layout_toRightOf="@+id/chat_profileImg"
+                android:src="@mipmap/ic_launcher"
+                android:visibility="gone"
+                app:civ_border_color="#05C30E"
+                app:civ_border_overlay="true"
+                app:civ_border_width="10dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_off"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_below="@id/chat_user"
+                android:layout_marginLeft="-15dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@+id/chat_profileImg"
+                android:layout_toRightOf="@+id/chat_profileImg"
+                android:src="@mipmap/ic_launcher"
+                android:visibility="visible"
+                app:civ_border_color="#9DA3A1"
+                app:civ_border_width="10dp" />
+
+            <TextView
+                android:id="@+id/last_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/chat_user"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/chat_profileImg"
+                android:ems="3"
+                android:fontFamily="@font/space_mono_bold"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:paddingTop="5dp"
+                android:textColor="#E9272727" />
+
+            <TextView
+                android:id="@+id/chat_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/chat_user"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="8dp"
+                android:layout_toRightOf="@+id/last_message"
+                android:fontFamily="@font/space_mono_bold"
+                android:gravity="right"
+                android:paddingTop="5dp"
+                android:text="date"
+                android:textColor="#E9272727" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:padding="16dp"
+    android:gravity="bottom"
+    android:theme="@android:style/ThemeOverlay"
+    android:background="@drawable/bottom_corner"
+    android:backgroundTint="@color/colorPrimaryDark"
+    >
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:background="@drawable/ic_user_profile"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imgProfile_nav"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:civ_border_width="3dp"
+        app:civ_border_color="#FFFF"/>
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt_username_nav"
+            android:fontFamily="@font/chivo_black"
+            android:textColor="#FFFF"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="id" />
+        <TextView
+            android:fontFamily="@font/chivo_black"
+            android:textColor="#FFFF"
+            android:id="@+id/txt_email_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Email" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

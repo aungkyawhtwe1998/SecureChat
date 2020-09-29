@@ -1,0 +1,290 @@
+[
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_ic_question.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/ic_question.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_background_right.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/background_right.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/layout_bar_layout.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/layout/bar_layout.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_ic_send_black_24dp.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/ic_send_black_24dp.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_bottom_corner.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/bottom_corner.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_ic_user_profile.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/ic_user_profile.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/layout_activity_message.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/layout/activity_message.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_ic_password.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/ic_password.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_ic_launcher_new_foreground.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/ic_launcher_new_foreground.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_splash_bh.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/splash_bh.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_heart_splash.png.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/build/generated/res/pngs/debug/drawable-ldpi/ic_heart_splash.png"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_new_round.png.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/mipmap-xxhdpi/ic_launcher_new_round.png"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_ic_multimedia.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/ic_multimedia.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_ic_queue_black_24dp.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/ic_queue_black_24dp.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_background_left.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/background_left.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/layout_fragment_request.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/layout/fragment_request.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/layout_activity_reset_password.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/layout/activity_reset_password.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_heart_splash.png.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_heart_splash.png"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_heart_splash.png.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/build/generated/res/pngs/debug/drawable-mdpi/ic_heart_splash.png"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_tab_layout_selector.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/tab_layout_selector.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_new_round.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/mipmap-anydpi-v26/ic_launcher_new_round.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_text_gradient.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/text_gradient.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_new.png.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/mipmap-xhdpi/ic_launcher_new.png"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_gradient.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/gradient.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_new.png.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/mipmap-mdpi/ic_launcher_new.png"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/layout_drawer_layout.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/layout/drawer_layout.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_heart_splash.png.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_heart_splash.png"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/layout_activity_start.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/layout/activity_start.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/layout_friend_items.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/layout/friend_items.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_new_round.png.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/mipmap-hdpi/ic_launcher_new_round.png"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_ic_search_black_24dp.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/ic_search_black_24dp.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_ic_communication.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/ic_communication.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_new.png.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/mipmap-hdpi/ic_launcher_new.png"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/layout_activity_profile.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable-hdpi_btncorner.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable-hdpi/btncorner.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/font_hind_siliguri_semibold.ttf.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/font/hind_siliguri_semibold.ttf"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_new_round.png.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/mipmap-mdpi/ic_launcher_new_round.png"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/layout_activity_register.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/layout_activity_request_profile.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/layout/activity_request_profile.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_heart_splash.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_heart_splash.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/layout_chat_item_left.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/layout/chat_item_left.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_new.png.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/mipmap-xxxhdpi/ic_launcher_new.png"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_new_round.png.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/mipmap-xhdpi/ic_launcher_new_round.png"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/layout_activity_home.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_ic_arrow_back_black_24dp.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/ic_arrow_back_black_24dp.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_bgcorner.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/bgcorner.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/menu_menu.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/menu/menu.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_new.png.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/mipmap-xxhdpi/ic_launcher_new.png"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/menu_menu_main.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_ic_conversation.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/ic_conversation.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_round.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/round.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_tab_background_selected.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/tab_background_selected.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/layout_navigation_header.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/layout/navigation_header.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/layout_user_items.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/layout/user_items.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_heart_splash.png.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/build/generated/res/pngs/debug/drawable-hdpi/ic_heart_splash.png"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/font_space_mono_bold.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/font/space_mono_bold.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_ic_visibility_black_24dp.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/ic_visibility_black_24dp.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_tab_layout_background.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/tab_layout_background.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/font_chivo_black.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/font/chivo_black.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/layout_fragment_user.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/layout/fragment_user.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/layout_fragment_chat.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/layout_chat_item_right.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/layout/chat_item_right.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_ic_visibility_off_black_24dp.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/ic_visibility_off_black_24dp.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_tab_background_xml.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/tab_background_xml.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_new_round.png.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/mipmap-xxxhdpi/ic_launcher_new_round.png"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_new.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/mipmap-anydpi-v26/ic_launcher_new.xml"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_heart_splash.png.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_heart_splash.png"
+    },
+    {
+        "merged": "/home/aungkyaw/akh/SecureChat/app/build/intermediates/res/merged/debug/drawable_ic_men.xml.flat",
+        "source": "/home/aungkyaw/akh/SecureChat/app/src/main/res/drawable/ic_men.xml"
+    }
+]

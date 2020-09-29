@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "700869253433",
+    "firebase_url": "https://chat-ef958.firebaseio.com",
+    "project_id": "chat-ef958",
+    "storage_bucket": "chat-ef958.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700869253433:android:4439a2ae2e1217a74630e8",
+        "android_client_info": {
+          "package_name": "com.example.securechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700869253433-681nriv1fajiqlvcn95fhsmstr29vjlt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwy889uHPribgrpSMmcN16zcyGnXtMdOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700869253433-681nriv1fajiqlvcn95fhsmstr29vjlt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

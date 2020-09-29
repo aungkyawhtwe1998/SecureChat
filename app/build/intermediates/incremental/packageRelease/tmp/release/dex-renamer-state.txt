@@ -1,0 +1,4 @@
+#Fri Aug 07 15:47:10 MMT 2020
+base.0=D\:\\sample-project\\SecureChat\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

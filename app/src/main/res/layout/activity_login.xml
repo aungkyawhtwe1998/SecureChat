@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".ActivityUi.LoginActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout"/>
+    <LinearLayout
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_corner" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@id/toolbar"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_question"/>
+        <TextView
+            android:fontFamily="@font/chivo_black"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Please enter the correct email and password that you have registered."
+            android:textColor="#000"
+            android:textSize="20sp" />
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:background="@drawable/bgcorner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:hapticFeedbackEnabled="true"
+                android:defaultFocusHighlightEnabled="true"
+                android:id="@+id/l_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/chivo_black"
+                android:hint="Email"
+                android:textSize="20sp"
+                app:met_floatingLabel="normal" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:hapticFeedbackEnabled="true"
+                android:defaultFocusHighlightEnabled="true"
+                android:id="@+id/l_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l_email"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/chivo_black"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:textSize="20sp"
+                app:met_floatingLabel="normal" />
+
+            <ImageButton
+                android:id="@+id/btn_seen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l_email"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/l_password"
+                android:background="#fff"
+                android:src="@drawable/ic_visibility_off_black_24dp"
+                android:visibility="gone" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l_password"
+                android:layout_margin="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:padding="3dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    style="@style/RippleStyleGrey"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="3dp">
+
+                    <Button
+                        android:hapticFeedbackEnabled="true"
+                        android:defaultFocusHighlightEnabled="true"
+                        android:id="@+id/btn_login"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/btncorner"
+                        android:backgroundTint="#fff"
+                        android:fontFamily="@font/chivo_black"
+                        android:text="Login"
+                        android:textAllCaps="false"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </com.balysv.materialripple.MaterialRippleLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <TextView
+            android:hapticFeedbackEnabled="true"
+            android:defaultFocusHighlightEnabled="true"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardview"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Forgot your password?"
+            android:fontFamily="@font/chivo_black"
+            android:textColor="#FFF"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

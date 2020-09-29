@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.FriendFragment"
+    android:orientation="horizontal">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/user_tt"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/space_mono_bold"
+        android:paddingLeft="20dp"
+        android:text="Friends"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <EditText
+        android:visibility="gone"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/user_tt"
+        android:backgroundTint="#E3E4E4"
+        android:fontFamily="@font/space_mono_bold"
+        android:paddingRight="10dp"
+        android:drawableEnd="@drawable/ic_search_black_24dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/bgcorner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search..."
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:id="@+id/edt_search"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/edt_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_request"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|center_vertical"
+    android:padding="10dp"
+    android:background="#FFF">
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/start_img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_conversation"/>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/start_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="sans-serif"
+        android:id="@+id/start_text"
+        android:shadowColor="@color/colorAccent"
+        android:text="Keep privacy by yourself. Have a Safe Chatting with us."
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="30sp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_above="@+id/reg_card"
+        android:padding="5dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#fff"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="20dp">
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/RippleStyleGrey"
+            >
+
+            <Button
+                android:hapticFeedbackEnabled="true"
+                android:defaultFocusHighlightEnabled="true"
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/btncorner"
+                android:backgroundTint="#fff"
+                android:fontFamily="@font/chivo_black"
+                android:text="log in"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="20sp" />
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/reg_card"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#fff"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="20dp">
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/RippleStyleGrey">
+
+            <Button
+                android:hapticFeedbackEnabled="true"
+                android:defaultFocusHighlightEnabled="true"
+                android:id="@+id/btnReg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/btncorner"
+                android:backgroundTint="#fff"
+                android:fontFamily="@font/chivo_black"
+                android:text="Sign Up"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

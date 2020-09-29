@@ -1,0 +1,357 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.securechat"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:6:5-81
+12-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:7:5-80
+13-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:7:22-77
+14
+15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+16    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-database:19.3.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/f8fab7b026da3565a28b6ce5f84e0386/jetified-firebase-database-19.3.0/AndroidManifest.xml:25:5-79
+17-->[com.google.firebase:firebase-database:19.3.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/f8fab7b026da3565a28b6ce5f84e0386/jetified-firebase-database-19.3.0/AndroidManifest.xml:25:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+18-->[com.google.firebase:firebase-iid:20.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/086dcf77572457545c9f56d13c9bedb1/jetified-firebase-iid-20.2.0/AndroidManifest.xml:24:5-68
+18-->[com.google.firebase:firebase-iid:20.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/086dcf77572457545c9f56d13c9bedb1/jetified-firebase-iid-20.2.0/AndroidManifest.xml:24:22-65
+19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+19-->[com.google.firebase:firebase-iid:20.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/086dcf77572457545c9f56d13c9bedb1/jetified-firebase-iid-20.2.0/AndroidManifest.xml:26:5-82
+19-->[com.google.firebase:firebase-iid:20.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/086dcf77572457545c9f56d13c9bedb1/jetified-firebase-iid-20.2.0/AndroidManifest.xml:26:22-79
+20
+21    <application
+21-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:9:5-83:19
+22        android:name="com.example.securechat.SecureChat"
+22-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:11:9-35
+23        android:allowBackup="false"
+23-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:12:9-36
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/6cdf211888e0a7ccbf81d39b63072413/core-1.1.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@mipmap/ic_launcher_new"
+27-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:14:9-47
+28        android:installLocation="internalOnly"
+28-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:10:9-47
+29        android:label="@string/app_name"
+29-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:15:9-41
+30        android:roundIcon="@mipmap/ic_launcher_new_round"
+30-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:16:9-58
+31        android:supportsRtl="true"
+31-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:17:9-35
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme" >
+33-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:18:9-40
+34        <activity
+34-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:19:9-22:51
+35            android:name="com.example.securechat.ActivityUi.RequestProfile"
+35-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:20:13-54
+36            android:parentActivityName="com.example.securechat.ActivityUi.HomeActivity"
+36-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:21:13-66
+37            android:screenOrientation="portrait" />
+37-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:22:13-49
+38        <activity
+38-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:23:9-32:20
+39            android:name="com.example.securechat.ActivityUi.SplashActi"
+39-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:24:13-50
+40            android:screenOrientation="portrait"
+40-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:25:13-49
+41            android:theme="@style/Splash" >
+41-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:26:13-42
+42            <intent-filter>
+42-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:27:13-31:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:28:17-69
+43-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:28:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:30:17-77
+45-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:30:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:33:9-36:79
+49            android:name="com.example.securechat.ActivityUi.HomeActivity"
+49-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:34:13-52
+50            android:parentActivityName="com.example.securechat.ActivityUi.LoginActivity"
+50-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:36:13-67
+51            android:screenOrientation="portrait" />
+51-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:35:13-49
+52        <activity
+52-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:37:9-40:51
+53            android:name="com.example.securechat.ActivityUi.ProfileActivity"
+53-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:38:13-55
+54            android:parentActivityName="com.example.securechat.ActivityUi.HomeActivity"
+54-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:39:13-66
+55            android:screenOrientation="portrait" />
+55-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:40:13-49
+56        <activity
+56-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:41:9-44:51
+57            android:name="com.example.securechat.ActivityUi.ResetPassword"
+57-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:42:13-53
+58            android:parentActivityName="com.example.securechat.ActivityUi.LoginActivity"
+58-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:43:13-67
+59            android:screenOrientation="portrait" />
+59-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:44:13-49
+60        <activity
+60-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:45:9-48:51
+61            android:name="com.example.securechat.ActivityUi.MessageActivity"
+61-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:46:13-55
+62            android:parentActivityName="com.example.securechat.ActivityUi.HomeActivity"
+62-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:47:13-66
+63            android:screenOrientation="portrait" />
+63-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:48:13-49
+64        <activity
+64-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:49:9-52:51
+65            android:name="com.example.securechat.ActivityUi.StartActivity"
+65-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:50:13-53
+66            android:parentActivityName="com.example.securechat.ActivityUi.SplashActi"
+66-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:51:13-64
+67            android:screenOrientation="portrait" />
+67-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:52:13-49
+68        <activity
+68-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:53:9-56:51
+69            android:name="com.example.securechat.ActivityUi.LoginActivity"
+69-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:54:13-53
+70            android:parentActivityName="com.example.securechat.ActivityUi.StartActivity"
+70-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:55:13-67
+71            android:screenOrientation="portrait" />
+71-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:56:13-49
+72        <activity
+72-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:57:9-60:69
+73            android:name="com.example.securechat.ActivityUi.RegisterActivity"
+73-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:58:13-56
+74            android:parentActivityName="com.example.securechat.ActivityUi.LoginActivity"
+74-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:60:13-67
+75            android:screenOrientation="portrait" />
+75-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:59:13-49
+76        <activity
+76-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:61:9-63:69
+77            android:name="com.example.securechat.ActivityUi.MainActivity"
+77-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:61:19-58
+78            android:parentActivityName="com.example.securechat.ActivityUi.LoginActivity"
+78-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:63:13-67
+79            android:screenOrientation="portrait" />
+79-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:62:13-49
+80
+81        <meta-data
+81-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:65:9-67:57
+82            android:name="preloaded_fonts"
+82-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:66:13-43
+83            android:resource="@array/preloaded_fonts" />
+83-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:67:13-54
+84
+85        <service
+85-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:69:9-77:19
+86            android:name="com.example.securechat.Notification.MyFirebaseIdService"
+86-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:70:13-61
+87            android:enabled="true"
+87-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:71:13-35
+88            android:exported="true"
+88-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:72:13-36
+89            android:stopWithTask="false" >
+89-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:73:13-41
+90            <intent-filter>
+90-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:74:13-76:29
+91                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+91-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:75:17-78
+91-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:75:25-75
+92            </intent-filter>
+93        </service>
+94
+95        <activity
+95-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:79:9-82:15
+96            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+96-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:80:13-76
+97            android:theme="@style/Base.Theme.AppCompat" />
+97-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:81:13-56
+98
+99        <service
+99-->[com.google.firebase:firebase-database:19.3.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/f8fab7b026da3565a28b6ce5f84e0386/jetified-firebase-database-19.3.0/AndroidManifest.xml:29:9-35:19
+100            android:name="com.google.firebase.components.ComponentDiscoveryService"
+100-->[com.google.firebase:firebase-database:19.3.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/f8fab7b026da3565a28b6ce5f84e0386/jetified-firebase-database-19.3.0/AndroidManifest.xml:30:13-84
+101            android:directBootAware="true"
+101-->[com.google.firebase:firebase-common:19.3.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+102            android:exported="false" >
+102-->[com.google.firebase:firebase-database:19.3.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/f8fab7b026da3565a28b6ce5f84e0386/jetified-firebase-database-19.3.0/AndroidManifest.xml:31:13-37
+103            <meta-data
+103-->[com.google.firebase:firebase-database:19.3.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/f8fab7b026da3565a28b6ce5f84e0386/jetified-firebase-database-19.3.0/AndroidManifest.xml:32:13-34:85
+104                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+104-->[com.google.firebase:firebase-database:19.3.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/f8fab7b026da3565a28b6ce5f84e0386/jetified-firebase-database-19.3.0/AndroidManifest.xml:33:17-109
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-database:19.3.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/f8fab7b026da3565a28b6ce5f84e0386/jetified-firebase-database-19.3.0/AndroidManifest.xml:34:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-auth:19.3.1] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:36:13-38:85
+107                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+107-->[com.google.firebase:firebase-auth:19.3.1] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:37:17-109
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-auth:19.3.1] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:38:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-storage:19.1.1] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:33:13-35:85
+110                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+110-->[com.google.firebase:firebase-storage:19.1.1] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:34:17-107
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-storage:19.1.1] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:35:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-messaging:20.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/f7d48f13d6e70bd6befc83d1047668d7/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:39:13-41:85
+113                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+113-->[com.google.firebase:firebase-messaging:20.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/f7d48f13d6e70bd6befc83d1047668d7/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:40:17-119
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-messaging:20.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/f7d48f13d6e70bd6befc83d1047668d7/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:41:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-firestore:21.4.3] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/18d992b63b25ac03e9a6a1ee16c47e8b/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:20:13-22:85
+116                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+116-->[com.google.firebase:firebase-firestore:21.4.3] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/18d992b63b25ac03e9a6a1ee16c47e8b/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:21:17-111
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-firestore:21.4.3] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/18d992b63b25ac03e9a6a1ee16c47e8b/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:22:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-datatransport:17.0.3] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/ec6ed60bc769c1397d2bb4044e417511/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+119                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+119-->[com.google.firebase:firebase-datatransport:17.0.3] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/ec6ed60bc769c1397d2bb4044e417511/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-datatransport:17.0.3] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/ec6ed60bc769c1397d2bb4044e417511/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-iid:20.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/086dcf77572457545c9f56d13c9bedb1/jetified-firebase-iid-20.2.0/AndroidManifest.xml:32:13-34:85
+122                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+122-->[com.google.firebase:firebase-iid:20.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/086dcf77572457545c9f56d13c9bedb1/jetified-firebase-iid-20.2.0/AndroidManifest.xml:33:17-96
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-iid:20.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/086dcf77572457545c9f56d13c9bedb1/jetified-firebase-iid-20.2.0/AndroidManifest.xml:34:17-82
+124            <meta-data
+124-->[com.google.firebase:firebase-installations:16.3.1] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/7e3b7735f74e3e8bd90577e2cd7ed89d/jetified-firebase-installations-16.3.1/AndroidManifest.xml:17:13-19:85
+125                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+125-->[com.google.firebase:firebase-installations:16.3.1] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/7e3b7735f74e3e8bd90577e2cd7ed89d/jetified-firebase-installations-16.3.1/AndroidManifest.xml:18:17-127
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-installations:16.3.1] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/7e3b7735f74e3e8bd90577e2cd7ed89d/jetified-firebase-installations-16.3.1/AndroidManifest.xml:19:17-82
+127        </service>
+128
+129        <activity
+129-->[com.google.firebase:firebase-auth:19.3.1] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:24:9-31:50
+130            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+130-->[com.google.firebase:firebase-auth:19.3.1] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:25:13-85
+131            android:excludeFromRecents="true"
+131-->[com.google.firebase:firebase-auth:19.3.1] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:26:13-46
+132            android:exported="true"
+132-->[com.google.firebase:firebase-auth:19.3.1] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:27:13-36
+133            android:launchMode="singleTask"
+133-->[com.google.firebase:firebase-auth:19.3.1] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:28:13-44
+134            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+134-->[com.google.firebase:firebase-auth:19.3.1] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:29:13-102
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+135-->[com.google.firebase:firebase-auth:19.3.1] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:30:13-72
+136        <!--
+137             FirebaseMessagingService performs security checks at runtime,
+138             but set to not exported to explicitly avoid allowing another app to call it.
+139        -->
+140        <service
+140-->[com.google.firebase:firebase-messaging:20.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/f7d48f13d6e70bd6befc83d1047668d7/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:28:9-35:19
+141            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+141-->[com.google.firebase:firebase-messaging:20.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/f7d48f13d6e70bd6befc83d1047668d7/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:29:13-82
+142            android:directBootAware="true"
+142-->[com.google.firebase:firebase-messaging:20.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/f7d48f13d6e70bd6befc83d1047668d7/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:30:13-43
+143            android:exported="false" >
+143-->[com.google.firebase:firebase-messaging:20.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/f7d48f13d6e70bd6befc83d1047668d7/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:31:13-37
+144            <intent-filter android:priority="-500" >
+144-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:74:13-76:29
+145                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+145-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:75:17-78
+145-->/home/aungkyaw/akh/SecureChat/app/src/main/AndroidManifest.xml:75:25-75
+146            </intent-filter>
+147        </service>
+148
+149        <provider
+149-->[com.squareup.picasso:picasso:2.71828] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/cf271932a93ac2f2c05c273e576ed21a/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+150            android:name="com.squareup.picasso.PicassoProvider"
+150-->[com.squareup.picasso:picasso:2.71828] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/cf271932a93ac2f2c05c273e576ed21a/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+151            android:authorities="com.example.securechat.com.squareup.picasso"
+151-->[com.squareup.picasso:picasso:2.71828] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/cf271932a93ac2f2c05c273e576ed21a/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+152            android:exported="false" />
+152-->[com.squareup.picasso:picasso:2.71828] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/cf271932a93ac2f2c05c273e576ed21a/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+153
+154        <receiver
+154-->[com.google.firebase:firebase-iid:20.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/086dcf77572457545c9f56d13c9bedb1/jetified-firebase-iid-20.2.0/AndroidManifest.xml:37:9-44:20
+155            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+155-->[com.google.firebase:firebase-iid:20.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/086dcf77572457545c9f56d13c9bedb1/jetified-firebase-iid-20.2.0/AndroidManifest.xml:38:13-78
+156            android:exported="true"
+156-->[com.google.firebase:firebase-iid:20.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/086dcf77572457545c9f56d13c9bedb1/jetified-firebase-iid-20.2.0/AndroidManifest.xml:39:13-36
+157            android:permission="com.google.android.c2dm.permission.SEND" >
+157-->[com.google.firebase:firebase-iid:20.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/086dcf77572457545c9f56d13c9bedb1/jetified-firebase-iid-20.2.0/AndroidManifest.xml:40:13-73
+158            <intent-filter>
+158-->[com.google.firebase:firebase-iid:20.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/086dcf77572457545c9f56d13c9bedb1/jetified-firebase-iid-20.2.0/AndroidManifest.xml:41:13-43:29
+159                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+159-->[com.google.firebase:firebase-iid:20.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/086dcf77572457545c9f56d13c9bedb1/jetified-firebase-iid-20.2.0/AndroidManifest.xml:42:17-81
+159-->[com.google.firebase:firebase-iid:20.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/086dcf77572457545c9f56d13c9bedb1/jetified-firebase-iid-20.2.0/AndroidManifest.xml:42:25-78
+160            </intent-filter>
+161        </receiver>
+162
+163        <provider
+163-->[com.google.firebase:firebase-common:19.3.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+164            android:name="com.google.firebase.provider.FirebaseInitProvider"
+164-->[com.google.firebase:firebase-common:19.3.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+165            android:authorities="com.example.securechat.firebaseinitprovider"
+165-->[com.google.firebase:firebase-common:19.3.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+166            android:exported="false"
+166-->[com.google.firebase:firebase-common:19.3.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+167            android:initOrder="100" />
+167-->[com.google.firebase:firebase-common:19.3.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+168
+169        <activity
+169-->[com.google.android.gms:play-services-base:17.1.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+170            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+170-->[com.google.android.gms:play-services-base:17.1.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+171            android:exported="false"
+171-->[com.google.android.gms:play-services-base:17.1.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+172            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+172-->[com.google.android.gms:play-services-base:17.1.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+173
+174        <meta-data
+174-->[com.google.android.gms:play-services-basement:17.0.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+175            android:name="com.google.android.gms.version"
+175-->[com.google.android.gms:play-services-basement:17.0.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+176            android:value="@integer/google_play_services_version" />
+176-->[com.google.android.gms:play-services-basement:17.0.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+177
+178        <service
+178-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/8e8493fc4060d1a9e60e0e8b89d28daa/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+179            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+179-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/8e8493fc4060d1a9e60e0e8b89d28daa/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+180            android:exported="false" >
+180-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/8e8493fc4060d1a9e60e0e8b89d28daa/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+181            <meta-data
+181-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/8e8493fc4060d1a9e60e0e8b89d28daa/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+182                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+182-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/8e8493fc4060d1a9e60e0e8b89d28daa/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+183                android:value="cct" />
+183-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/8e8493fc4060d1a9e60e0e8b89d28daa/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+184        </service>
+185        <service
+185-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/09a4bf673ec4891d08a21c203c688e10/jetified-transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+186            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+186-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/09a4bf673ec4891d08a21c203c688e10/jetified-transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+187            android:exported="false"
+187-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/09a4bf673ec4891d08a21c203c688e10/jetified-transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+188            android:permission="android.permission.BIND_JOB_SERVICE" >
+188-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/09a4bf673ec4891d08a21c203c688e10/jetified-transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+189        </service>
+190
+191        <receiver
+191-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/09a4bf673ec4891d08a21c203c688e10/jetified-transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+192            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+192-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/09a4bf673ec4891d08a21c203c688e10/jetified-transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+193            android:exported="false" />
+193-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/aungkyaw/.gradle/caches/transforms-2/files-2.1/09a4bf673ec4891d08a21c203c688e10/jetified-transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+194    </application>
+195
+196</manifest>

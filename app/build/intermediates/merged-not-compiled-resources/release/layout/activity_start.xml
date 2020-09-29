@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/gradient">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher_new_foreground"/>
+    <TextView
+        android:fontFamily="@font/space_mono_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SecureChat"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:shadowColor="@color/colorAccent"
+        />
+    <androidx.cardview.widget.CardView
+        android:padding="2dp"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#fff"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="30dp">
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/RippleStyleGrey"
+            >
+            <Button
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:fontFamily="@font/space_mono_bold"
+                android:textAllCaps="false"
+                android:background="@drawable/bgcorner"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Login"
+                android:textStyle="bold"
+                android:id="@+id/btnLogin"
+                android:textSize="20sp"/>
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:padding="5dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#fff"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="30dp">
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/RippleStyleGrey">
+            <Button
+                android:backgroundTint="#fff"
+                android:fontFamily="@font/space_mono_bold"
+                android:background="@drawable/bgcorner"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Register"
+                android:textColor="#000"
+                android:id="@+id/btnReg"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>
